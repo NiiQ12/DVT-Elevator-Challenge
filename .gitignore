@@ -1,0 +1,22 @@
+# Elevator Challenge files
+packages/
+ElevatorChallenge/bin/
+ElevatorChallenge/obj/
+ElevatorChallengeUnitTests/bin/
+ElevatorChallengeUnitTests/obj/
+
+# VS Code files
+.vscode/
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+
+# Temporary files
+*.tmp
+*.temp
