@@ -167,7 +167,7 @@ namespace ElevatorChallenge.Models {
         }
 
         public override string ToString() {
-            return $"{(ID != null ? $"Elevator #{ID}\t" : "")}State: {State,10}\tFloor: {CurrentFloor}\tCapacity: {PersonCount}/{PersonLimit}";
+            return $"{(ID != null ? $"Elevator #{ID}\t" : "")}State: {State,10}\tFloor: {CurrentFloor,2}\tCapacity: {PersonCount}/{PersonLimit}";
         }
     }
 }

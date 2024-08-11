@@ -44,10 +44,8 @@ namespace ElevatorChallenge {
             while (true) {
                 Start:
                 do {
-                    Console.Write($"What floor (0-{controller.Building.FloorCount - 1}) requires pick-up? [B. Back]\t");
+                    Console.Write($"What floor (0-{controller.Building.FloorCount - 1}) requires pick-up?\t\t\t");
                     menuOption = Console.ReadLine() ?? "";
-
-                    if (menuOption?.ToUpper() == "B") goto Start;
                 } while (!int.TryParse(menuOption, out currentFloor) || currentFloor < 0 || currentFloor > 20);
 
                 do {
